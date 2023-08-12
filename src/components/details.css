@@ -1,0 +1,15 @@
+.Top{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+
+.table2 {
+    border: solid black 1px;
+    width: 100%;
+}
+.table2 tr td{
+    width: 5%;
+    border: solid black 1px;
+}

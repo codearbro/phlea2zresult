@@ -1,0 +1,16 @@
+.card{
+    width:100%;
+    border:3px solid black;
+}
+.cardHeading{
+    padding: 0px;
+    /* border: 5px solid black; */
+
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+background-color: rgb(15, 223, 15);
+}
+.carddata{
+    font-weight: bold;
+    text-align: left;
+}
