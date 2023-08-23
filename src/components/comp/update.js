@@ -6,7 +6,8 @@ import { useState, useEffect } from 'react';
 import Card1 from './card1';
 import Card2 from './card2';
 import Card3 from './card3';
-import BackGround from './../images/update_back.jpg'
+import BackGround from './../images/Result.png'
+import Live from './../images/live.gif'
 
 // import Updates from './Updates';
 
@@ -34,16 +35,15 @@ function Update(){
             <div className='Top'>
             <tr>
             <img src={BackGround} alt="logo" className='upback'/>
-            <span>Find The A to Z<br/>Right Result</span>
             </tr>
             </div>
             <tr>
             <div className='Mid'>
-                <span className='Heading'>New Updates</span>
+                <span className='Heading'>New Updates<img src={Live} alt="logo" className='live'/></span>
                 {users.map((d, i) =>  (
             <tr key={i} className='data'>
               
-              <td><li><Link to={`user/${d.id}`} style={{marginRight: "10px"}}>{d.email}</Link></li></td>
+              <td><li><Link to={`user/${d.id}`} style={{marginRight: "10px"}}>{d.Headline}</Link></li></td>
              
             </tr>
             

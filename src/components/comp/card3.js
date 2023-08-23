@@ -1,6 +1,7 @@
 import './card.css';
 import { useState, useEffect } from 'react';
 import React from 'react';
+import { Link} from 'react-router-dom';
 import axios from 'axios';
 
 function Card3(){
@@ -28,7 +29,7 @@ function Card3(){
                 <tbody>
                 {users.map((d, i) =>  (
             <tr key={i} className='carddata'>
-              <td><li>{d.email}</li></td>
+              <td><li><Link to={`user/${d.id}`} style={{marginRight: "10px"}}>{d.Headline}</Link></li></td>
               </tr>
           ))}
           </tbody>

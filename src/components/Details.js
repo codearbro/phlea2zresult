@@ -8,10 +8,10 @@ import "./details.css"
 
 export default function Details() {
     return (
-        <div>
+        <div className="details">
         <Logo/>
-        <div className="Top">
-            <table >
+        
+            <table className="table1">
                 <tr>
                     <td><h2>Name of post:</h2></td>
                     <td><spam>NTA CUET UG 2023 Admission</spam></td>
@@ -35,9 +35,9 @@ export default function Details() {
             <table className="table2">
                 <tr > 
                     <td colSpan={2}>
+                <span style={{color:"#0DCF3E",fontWeighn:"bold"}}>National Testing Agency (NTA)</span><br></br>
                 National Testing Agency (NTA)<br></br>
-                National Testing Agency (NTA)<br></br>
-                National Testing Agency (NTA)<br></br>
+                <span style={{color:"#0DCF3E",fontWeighn:"bold"}}>National Testing Agency (NTA)</span><br></br>
                 </td>
 
                 </tr>
@@ -60,7 +60,7 @@ export default function Details() {
                 </td>
                 </tr>
                 <tr> 
-                <th colSpan={2}>
+                <th colSpan={2} style={{color:"#0DCF3E",fontWeighn:"bold"}}>
                 CUET UG 2023 Admission Details
                 </th>
                 </tr>
@@ -72,9 +72,40 @@ export default function Details() {
                 CUET Under Graduate UG Eligibility 2023
                 </th>
                 </tr>
-            
+                <tr> 
+                <th colSpan={2} style={{color:"#0DCF3E",fontWeighn:"bold"}}>
+                National Testing Agency (NTA)
+                </th>
+                </tr>
+                <tr> 
+                <td colSpan={2}>
+                National Testing Agency (NTA)
+                </td>
+                </tr>
+                <tr> 
+                <th colSpan={2} style={{color:"#FF05C8",fontWeighn:"bold"}}>
+                Interested Candidates Can Read the CUET UG 2023 Full Notification Before Apply Online
+                </th>
+                </tr>
+                <tr> 
+                <th colSpan={2}  style={{color:"#0DCF3E",fontWeighn:"bold"}}>
+                Some Useful Important Links
+                </th>
+                </tr>
+                <tr>
+                    <td style={{color:"#FF05C8",fontWeighn:"bold"}}>Download Result/<br/>Scorecard</td>
+                    <td style={{color:"#0562FF",fontWeighn:"bold"}}>Application Fee</td>
+                </tr>
+                <tr>
+                    <td style={{color:"#FF05C8",fontWeighn:"bold"}}>Download Result/<br/>Scorecard</td>
+                    <td style={{color:"#0562FF",fontWeighn:"bold"}}>Application Fee</td>
+                </tr>
+                <tr>
+                    <td style={{color:"#FF05C8",fontWeighn:"bold"}}>Download Result/<br/>Scorecard</td>
+                    <td style={{color:"#0562FF",fontWeighn:"bold"}}>Application Fee</td>
+                </tr>
             </table>
-        </div>
+        
         </div>
     )
 }

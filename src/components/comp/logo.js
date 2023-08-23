@@ -7,7 +7,7 @@ function Logo(){
     return(
         <>
         <table className='head'>
-        <tr >
+        <tr>
           <td className='logo'>  
               <span className="a1">RESULT</span> <span className="a2">PAHLE</span><br />
               <span className='des'>www.resultpahle.com</span>

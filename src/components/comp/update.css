@@ -8,23 +8,15 @@
 .upback
 {
     /* position: relative; */
-    height: 180px;
+    height: 100%;
+    width: 100%;
     background-image: url("./../images/update_back.jpg");
 }
 .Top{
-    width: 450px;
-    height: 200px;
+   
     /* border: solid green 2px; */
     margin-left: 30px;
-    margin-top: 50px;
-}
-.Top span{
-    margin-left: -60px;
-    position: absolute;
-    font-size: 60px;
-    font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    margin-top: 0px;
 }
 .Mid{
     /* border: 1px solid red; */
@@ -47,7 +39,32 @@
     width: 100%;
     /* border:1px solid black; */
     margin-top: 10px;
+    align-items: center;
 }
 .card td{
+    column-gap: 14%;
     width: 10%;
     }
+.live{
+    width: 50px;
+    margin-left: 5px;
+}
+@media only screen and(min-width:600px){
+    .Heading{
+        font-family: 'Arial', Courier, monospace;
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(15, 223, 15);
+    }
+    
+}
+@media only screen and(min-width:414px){
+    
+    .Heading{
+        font-family: 'Arial', Courier, monospace;
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(15, 223, 15);
+    }
+    
+}
