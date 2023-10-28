@@ -41,10 +41,15 @@
     margin-top: 10px;
     align-items: center;
 }
-.card td{
-    column-gap: 14%;
-    width: 10%;
-    }
+.card table{
+    
+    width: 90%;
+    border-collapse: collapse;
+}
+.card table td{
+    border:1px solid black;
+}
+          
 .live{
     width: 50px;
     margin-left: 5px;

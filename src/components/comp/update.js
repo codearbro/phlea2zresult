@@ -57,7 +57,7 @@ function Update(){
             <div className='card'>
             <table>
                 
-            <tr>
+            <tr className="cards"> 
                 <td><Card1/></td>
                 <td><Card2/></td>
                 <td><Card3/></td>
